@@ -1,0 +1,40 @@
+@media (min-width:740px) and (max-width:1023px){
+    .send__btn{
+        width: 100%;
+    }
+    .founder{
+        width: calc(100%/2);
+        margin-bottom: 24px;
+    }
+    .container__display{
+        width: calc(100%/2);
+    }
+}
+@media (max-width:739px){
+    .container__display{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .founder{
+        width: 100%;
+        margin-bottom: 24px;
+        background-color: #f1f1f1;
+    }
+    .contact__btn{
+        background-color: #ccc;
+    }
+    .contact__btn:hover{
+        opacity: 0.5;
+    }
+    .send__btn{
+        width: 100%;
+    }
+    .nav__left{
+        display: none;
+    }
+    .about__desct{
+        text-align: justify;
+    }
+
+   
+}
